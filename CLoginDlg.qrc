@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/CLoginDlg">
+        <file>resources/Login/close.svg</file>
+        <file>resources/Login/close_hover.svg</file>
+        <file>resources/Login/login_netstatus.svg</file>
+        <file>resources/Login/login_netstatus_hover.svg</file>
+        <file>resources/Login/login_set.svg</file>
+        <file>resources/Login/login_set_hover.svg</file>
+        <file>resources/Login/Loginbg.png</file>
+        <file>resources/Login/logo.png</file>
+        <file>resources/Login/min.svg</file>
+        <file>resources/Login/min_hover.svg</file>
+        <file>resources/Login/right_image.png</file>
+        <file>resources/Login/School.png</file>
+        <file>resources/Login/minus.svg</file>
+        <file>resources/Login/minus_hover.svg</file>
+        <file>resources/Login/database.png</file>
+    </qresource>
+</RCC>
