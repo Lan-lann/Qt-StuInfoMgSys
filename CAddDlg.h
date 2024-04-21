@@ -38,4 +38,5 @@ private:
 	QLineEdit* lineEditEnglish;
 	QLineEdit* lineEditMath;
 	QPushButton* btnAdd;
+	
 };

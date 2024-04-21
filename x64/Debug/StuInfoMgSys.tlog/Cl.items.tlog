@@ -1,9 +1,17 @@
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CAddDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CAddDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CCountDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CCountDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CModifyDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CModifyDlg.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CLoginDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CLoginDlg.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CMainWidget.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CMainWidget.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CSelectDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CSelectDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CSortDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CSortDlg.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\CStudentInfo.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\CStudentInfo.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\main.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\main.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\rcc\qrc_CLoginDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\qrc_CLoginDlg.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CLoginDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CLoginDlg.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CMainWidget.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CMainWidget.obj
 D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CAddDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CAddDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CModifyDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CModifyDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CSelectDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CSelectDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CSortDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CSortDlg.obj
+D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc\moc_CCountDlg.cpp;D:\code\VSQtproject\StuInfoMgSys\StuInfoMgSys\x64\Debug\moc_CCountDlg.obj

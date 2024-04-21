@@ -3,8 +3,10 @@
 CAddDlg::CAddDlg(QWidget* p)
     :QDialog(p)
 {
-	resize(500, 500);
+	resize(250, 500);
 	setWindowTitle("AddStudentInfo");
+	/*this->setStyleSheet(".QPushButton,QLineEdit{border-color:#000000;background-color:#909399;color:black;} \
+		.QLabel{background-color:#909399;}");*/
 	QLabel* plabelName = new QLabel(this);
 	plabelName->setText("Name");
 	QLabel* plabelSex = new QLabel(this);
@@ -21,13 +23,21 @@ CAddDlg::CAddDlg(QWidget* p)
 	plabelMath->setText("Math");
 
 	lineEditName = new QLineEdit(this);
+	lineEditName->setFixedHeight(25);
 	lineEditSex = new QLineEdit(this);
+	lineEditSex->setFixedHeight(25);
 	lineEditAge = new QLineEdit(this);
+	lineEditAge->setFixedHeight(25);
 	lineEditNumber = new QLineEdit(this);
+	lineEditNumber->setFixedHeight(25);
 	lineEditChinese = new QLineEdit(this);
+	lineEditChinese->setFixedHeight(25);
 	lineEditEnglish = new QLineEdit(this);
+	lineEditEnglish->setFixedHeight(25);
 	lineEditMath = new QLineEdit(this);
+	lineEditMath->setFixedHeight(25);
 	btnAdd = new QPushButton(this);
+	btnAdd->setFixedHeight(25);
 	btnAdd->setText("Add");
 
 	lineEditName->setFixedWidth(100);
@@ -115,7 +125,7 @@ void CAddDlg::addStudent()
 		studentChinese.isEmpty() || studentEnglish.isEmpty() ||
 		studentMath.isEmpty())
 	{
-		QMessageBox::information(this, "Hint", "Please enter complete information");
+		QMessageBox::information(nullptr, "Hint", "Please enter complete information");
 		return;
 	}
 
@@ -132,7 +142,7 @@ void CAddDlg::addStudent()
 	//}
 	QTextStream out(&file);
 	//QTextStream可以进行一些基本的文本读写，比如QString int char之类的数据QDataStream可以进行一个如QMap QPoint之类数据的读写。
-	out << studentName << " " << studentSex << " " << studentAge << " " << studentNumber << " " << studentChinese << " " << studentEnglish << " " << studentMath << '\n';
+	out << studentName << " " << studentSex << " " << studentAge << " " << studentNumber << " " << studentChinese << " " << studentMath << " " << studentEnglish << '\n';
 	//将我们刚刚获取的数据写入文件
 	file.close();
 	QMessageBox::information(this, "Success", "Successfully Added");

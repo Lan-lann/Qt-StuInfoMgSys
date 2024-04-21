@@ -27,6 +27,9 @@ public:
     int getAge();
 
     QString toString(int);
+
+    /*CStudentInfo operator=(const CStudentInfo & a);*/
+
     
    /* void setId(int tid) {
         id = tid;
